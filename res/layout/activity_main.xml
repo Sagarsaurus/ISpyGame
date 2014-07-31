@@ -7,10 +7,19 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ispyapp.MainActivity" >
-
-    <TextView
+    
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_height="wrap_content"/>
+
+    
+    <Button
+     	android:id="@+id/takePicture"
+     	android:layout_height="wrap_content"
+     	android:layout_width="wrap_content"
+     	android:text="@string/takePic"
+     	android:layout_alignParentBottom="true"
+     	android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
